@@ -1,0 +1,27 @@
+{
+  "name": "volyanytsky/http",
+  "description": "Simple HTTP client to make GET, POST, PUT and DELETE requests. Basic authorization is implemented",
+  "version": "0.0.1",
+  "type": "library",
+  "homepage": "https://github.com/volyanytsky",
+  "time": "2017-12-24",
+  "license": "WTFPL",
+  "authors": [
+    {
+      "name": "Sergey Volyanytsky",
+      "email": "sergey.volyanytsky@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Http\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/volyanytsky/http"
+    }
+  ]
+}
