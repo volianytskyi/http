@@ -123,7 +123,7 @@ class HttpClient
         $opts = [
             'http' => [
                 'method'  => "DELETE",
-                'header'  => "Authorization: Basic " . base64_encode($this->login.":".$this->portal->password)
+                'header'  => "Authorization: Basic " . base64_encode($this->login.":".$this->password)
             ]
         ];
         return $this->getAnswer($opts, "$resource/$id");
